@@ -1,6 +1,5 @@
-USTH ICT Android Development 2025
-========================================
+# USTH ICT Android Development 2025
 
-* **Your ID**
-* **Your name**
-* **Your class**
+- **ID**: 23BI14021
+- **Name**: Lương Đức Anh
+- **Class**: G3

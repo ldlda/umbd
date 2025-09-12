@@ -1,16 +1,23 @@
 package vn.edu.usth.weather
 
-import android.app.Activity
 import android.os.Bundle
 import android.util.Log
+import androidx.appcompat.app.AppCompatActivity
 
-class WeatherActivity : Activity() {
-    val TAG = "WeatherActivity"
+class WeatherActivity : AppCompatActivity() {
+    val TAG = javaClass.simpleName
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-//        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_main)
         Log.i(TAG, "onCreate: triggered")
+        val fragment = ForecastFragment()
+
+        // lowkey cant jus do whatever teach says
+        // get__ turns to __ in kotlin WTF
+        supportFragmentManager.beginTransaction().add(
+            R.id.main, fragment
+        ).commit()
     }
 
     override fun onStart() {

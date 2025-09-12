@@ -1,4 +1,4 @@
-    package vn.edu.usth.weather
+package vn.edu.usth.weather
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

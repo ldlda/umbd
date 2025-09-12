@@ -45,3 +45,4 @@ class WeatherActivity : AppCompatActivity() {
         Log.i(TAG, "onDestroy: triggered")
     }
 }
+

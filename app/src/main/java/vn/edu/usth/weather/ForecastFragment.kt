@@ -40,11 +40,11 @@ class ForecastFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         Log.i(TAG, "onCreateView: triggered")
-//        return inflater.inflate(R.layout.fragment_forecast, container, false).apply { // kotlin goated for this lowk
-//            setBackgroundColor(listOf(0x200000FF, 0x2000FF00, 0x20FF0000).random()) // why here
-//        }
+        return inflater.inflate(R.layout.fragment_forecast, container, false).apply { // kotlin goated for this lowk
+            setBackgroundColor(listOf(0x200000FF, 0x2000FF00, 0x20FF0000).random()) // why here
+        }
 
-        val context = requireContext()
+/*        val context = requireContext()
         val drawable = ContextCompat.getDrawable(context, R.drawable.sunny_with_rain_light)
         val textview = TextView(context).apply {
             setText(R.string.text_lda)
@@ -59,7 +59,7 @@ class ForecastFragment : Fragment() {
             )
             addView(textview)
         }
-        return linearlayout
+        return linearlayout*/
     }
 
     companion object {

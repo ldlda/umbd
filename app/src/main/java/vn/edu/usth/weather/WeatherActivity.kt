@@ -21,7 +21,7 @@ class WeatherActivity : AppCompatActivity() {
         }
 
         Log.i(TAG, "onCreate: triggered")
-        val fragment = ForecastFragment()
+        val fragment = ForecastFragment.cuh("real", null, R.drawable.windy)
 
         // lowkey cant jus do whatever teach says
         // get__ turns to __ in kotlin WTF
